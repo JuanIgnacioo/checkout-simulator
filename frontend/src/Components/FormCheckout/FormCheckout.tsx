@@ -10,7 +10,7 @@ import {
   InputGroup,
   InputRightElement,
   Text,
-  Button,  
+  Button,
   Spinner,
 } from "@chakra-ui/react";
 import { ReactComponent as QuestionIcon } from "../../Assets/Question.svg";
@@ -88,12 +88,7 @@ const FormCheckout: React.FC = () => {
             Datos Personales
           </Text>
           <Flex minWidth="max-content" alignItems="center" gap="3" mt={3}>
-            <Input
-              variant="flushed"
-              placeholder="E-mail"
-              type={"email"}
-              onChange={(e: any) => console.log(e.target.value)}
-            />
+            <Input variant="flushed" placeholder="E-mail" type={"email"} />
           </Flex>
           <Text fontSize="sm" mt={1} color={"#585858"}>
             A este email te enviaremos el recibo de compra

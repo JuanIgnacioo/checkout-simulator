@@ -72,7 +72,6 @@ const DuesContainer: React.FC = () => {
           );
         })}
       </RadioGroup>
-      )
     </Center>
   );
 };
